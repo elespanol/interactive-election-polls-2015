@@ -1,5 +1,5 @@
 /**
- * Project: Project name 
+ * Project: Project name
  * File:    Main SCSS
  */
 
@@ -7,8 +7,8 @@
 $guss-webfonts-base-url: '//pasteup.guim.co.uk/fonts/';
 
 $ff-s:  "Guardian Egyptian Web", Georgia, serif;
-$ff-ss: "Guardian Text Sans Web","Agate Sans", sans-serif; 
-$ff-agate: "Guardian Agate Sans 1 Web","Agate Sans", sans-serif; 
+$ff-ss: "Guardian Text Sans Web","Agate Sans", sans-serif;
+$ff-agate: "Guardian Agate Sans 1 Web","Agate Sans", sans-serif;
 
 $con:    #005789;
 $grn:    #33A22B;
@@ -22,9 +22,9 @@ $sdlp:    $others;
 $pc:     #868686;
 
 
-@import 'bower_components/pasteup-palette/src/_palette';
-@import 'bower_components/guss-webfonts/src/_webfonts.scss';
-@import 'bower_components/guss-typography/_typography.scss';
+@import '../../bower_components/pasteup-palette/src/_palette.scss';
+@import '../../bower_components/guss-webfonts/src/_webfonts.scss';
+@import '../../bower_components/guss-typography/_typography.scss';
 
 @include guss-webfonts();
 @include guss-typography-defaults;
@@ -42,7 +42,7 @@ figure.element-interactive{
 }
 #article-body.interactivePadding{
     padding-left:0;
-    padding-right:0; 
+    padding-right:0;
 }
 
 body {
@@ -90,14 +90,14 @@ img {
 .article__header {
   display: none;
 }
-#article-body 
+#article-body
 #article-body .l-main {
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 #article-body .l-header,
 #article-body .l-footer {
-  display: none;  
+  display: none;
 }
 #article-body .bgc-grey-light {
   background-color: white;
@@ -107,7 +107,7 @@ img {
 #article-body li::before {
   display: none;
 }
- 
+
 #article-body a {
   text-shadow: none !important; // Override apps
 }

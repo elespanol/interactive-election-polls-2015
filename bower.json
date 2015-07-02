@@ -18,13 +18,13 @@
   "dependencies": {
     "almond": "0.3.0",
     "curl": "0.8.12",
-    "pasteup-buttons": "~0.5.0",
-    "iframe-messenger": "guardian/iframe-messenger#master",
     "pasteup-buttons": "~0.4.12",
+    "iframe-messenger": "guardian/iframe-messenger#master",
     "ractive": "0.6.1",
     "requirejs-plugins": "1.0.3",
     "text": "2.0.10",
     "d3": "~3.5.5",
-    "underscore": "~1.7.0"
+    "underscore": "~1.7.0",
+    "pasteup-palette": "~3.4.2"
   }
 }
